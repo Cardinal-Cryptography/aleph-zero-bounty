@@ -16,6 +16,8 @@ Use Aleph Zero’s on-chain SNARK verification abilities in order to build a sol
 Using ZK SNARKs enables exploring enhanced privacy in the blockchain, and we challenge you to use it to develop a solution that benefits from the added privacy in a non-obvious way. Solutions can include DeFi applications that economically benefit from enhanced privacy, private DAOs and solutions targeting non-blockchain specific use cases.
 We encourage you to think outside the box and explore innovative ways to leverage Aleph Zero's privacy-enhancing technology. You can create a unique value proposition that differentiates your solution from the others on the market. So put on your thinking cap, and let's see what you can come up with!
 
+Important note: only one fixed Circuit Config is now supported for on-chain verification -- Standard Plonk with one gate -- this will be soon extended too arbitrary halo2 circuits. You can work on devnet or locally and, importantly: start with [this repo](https://github.com/Cardinal-Cryptography/rsa-challenge-with-halo2).
+
 ## Recommended direction 3
 
 ### Tooling/Infrastructure
